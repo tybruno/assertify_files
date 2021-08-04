@@ -1,0 +1,1 @@
+assertify_predicates @ git+https://github.com/tybruno/assertify_predicates.git#egg=assertify_predicates
