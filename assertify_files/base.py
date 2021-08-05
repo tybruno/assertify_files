@@ -18,7 +18,7 @@ class FileExtensions(Enum):
     CSV = {".csv"}
 
 
-class AssertiyFile(ABC):
+class AbstractAssertiyFile(ABC):
     def __init__(
         self,
         raises: Optional[Union[None, Type[Exception], Type[AssertionError]]],
